@@ -1,0 +1,88 @@
+.backgroundLayer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.content {
+  width=100%;
+  height=100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.appTitle {
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.searchBox {
+  margin-bottom: 15%;
+}
+
+.searchButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  background: #3498db;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.randomButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  background: #f44336;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.queryReturnBox {
+  -webkit-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.58);
+  font-family: Arial;
+  color: black;
+  font-size: 21px;
+  margin: 2%;
+  padding: 1%;
+  background-color: white;
+}
+
+.queryBackground {
+  background-color: white;
+}
+
+.queryTitle {
+  background-color: #3498db;
+  color: white;
+  padding: 1%;
+}
+
+.qheader {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: row;
+}
+
+.qsearchform {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.qappButtons {
+  margin-top: 1.35%;
+  margin-left: 1%;
+}
