@@ -2,44 +2,41 @@
 .backgroundLayer {
   width: 100%;
   height: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color:white;
+  position: absolute;
 
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: row;
+  
 
 }
 
 
 .queryReturn{
-margin: auto;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color:white;
- 
+
  
 }
 
 .content {
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   flex-direction: column;
   margin: auto;
-  margin-top: 5%;
-
 
 
 }
 
-.queryReturn a {
-  text-decoration: none;
 
-}
 
 .center{
 
@@ -47,29 +44,18 @@ margin: auto;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: calc(var(--vh, 1vh) * 40);;
+
+
 
 }
 
-@media only screen 
-  and (min-device-width: 1366px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-.center{
-  margin-top: calc(var(--vh, 1vh) * 35);;
-}
-}
+
 .appTitle {
   margin-bottom: 3%;
   text-align: center;
 }
 
-.searchBox {
-  margin-bottom: 15%;
-}
+
 
 .searchButton {
   font-family: Arial;
@@ -104,7 +90,7 @@ margin: auto;
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-  
+
 
 
 
@@ -113,10 +99,6 @@ margin: auto;
   background: #4c8bf5;
   color: white;
 
-}
-.queryTitle{
-  margin: 2%;
-  padding: 1%;
 }
 
 
