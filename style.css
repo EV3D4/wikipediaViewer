@@ -1,3 +1,9 @@
+.queryReturn{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
 .backgroundLayer {
   width: 100%;
   height: 100%;
@@ -9,8 +15,7 @@
 }
 
 .content {
-  width=100%;
-  height=100%;
+
   display: flex;
   justify-content: center;
   text-align: center;
@@ -49,25 +54,26 @@
 }
 
 .queryReturnBox {
-  -webkit-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.58);
-  -moz-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.58);
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.58);
+
   font-family: Arial;
   color: black;
   font-size: 21px;
   margin: 2%;
   padding: 1%;
+
   background-color: white;
+  border-style: dashed;
+  border-width: 5px;
+
 }
 
-.queryBackground {
-  background-color: white;
-}
+
 
 .queryTitle {
-  background-color: #3498db;
   color: white;
+  height: 100%;
   padding: 1%;
+  
 }
 
 .qheader {
