@@ -54,16 +54,14 @@ margin: auto;
 }
 
 @media only screen 
-    and (min-device-width : 1100px) 
-    and (orientation : landscape) 
-    and (-webkit-min-device-pixel-ratio : 2)
-    {
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 .center{
   margin-top: calc(var(--vh, 1vh) * 35);;
-
 }
 }
-
 .appTitle {
   margin-bottom: 3%;
   text-align: center;
