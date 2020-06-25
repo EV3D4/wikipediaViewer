@@ -49,8 +49,7 @@ margin: auto;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 45%;
-
+  margin-top: calc(var(--vh, 1vh) * 40);;
 
 }
 
