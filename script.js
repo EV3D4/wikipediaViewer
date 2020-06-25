@@ -27,13 +27,17 @@ $(document).ready(function() {
       dataType: "json",
       success: function(data, textStatus, jqXHR) {
 
-        html = "<div class=queryBackground><div class=queryTitle><h1>Query: "+ apiSearchTearm+"</h1></div</div>";
+        html = "<div class=queryBackground></div>";
 
         for (i = 0; i < data[1].length; i++) {
           html = html + "<a href=" + data[3][i] + "><div class=queryReturnBox><h4>" + data[1][i] + "</h4>";
           html = html + "<p>" + data[2][i] + "</p></div></a>";
         }
         html += "</div>"
+
+        $('#ID1').removeClass('center').addClass('content');
+
+
         $(".queryReturn").html(html);
       },
       error: function(errorMessage) {}
