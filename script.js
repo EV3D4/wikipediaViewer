@@ -27,7 +27,7 @@ $(document).ready(function() {
       dataType: "json",
       success: function(data, textStatus, jqXHR) {
 
-        html = "<div class=queryBackground><div class=queryTitle><h1>Search:</h1></div</div>";
+        html = "<div class=queryBackground><div class=queryTitle><h1>Query: "+ apiSearchTearm+"</h1></div</div>";
 
         for (i = 0; i < data[1].length; i++) {
           html = html + "<a href=" + data[3][i] + "><div class=queryReturnBox><h4>" + data[1][i] + "</h4>";
