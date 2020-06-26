@@ -101,12 +101,13 @@
 
 }
 .queryReturnBox:hover {
-  background: #4c8bf5;
+  background: #3498db;
   color: white;
 
 }
 
-
+.queryReturn a { 
+  	text-decoration: none !important; }
 .qheader {
   display: flex;
   justify-content: flex-start;
