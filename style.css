@@ -104,12 +104,13 @@ width: 650px;
 
   font-family: Arial;
   font-size: 21px;
-  padding: 1%;
   color: black;
-  padding: 10px;
-  width:93%;
-  height: 2.25em;
-  margin: auto;
+  width: 93%;
+  height: 2.75em;
+  display: flex;
+  padding-top: .35em;
+  padding-left: .65em;
+margin: auto;
 
 }
 .queryReturnBox:hover {
