@@ -14,7 +14,14 @@
 
 }
 
+.container{
+  display: flex;
+  align-items: center;
 
+  justify-content: center;
+  flex-direction: row;
+
+}
 .queryReturn{
   position: relative;
   display: flex;
@@ -23,7 +30,6 @@
   background-color:white;
 
  text-align: left;
- text-decoration: none;
 
 }
 
@@ -34,8 +40,7 @@
   text-align: center;
   flex-direction: column;
   margin: auto;
-
-
+  
 }
 
 
@@ -46,6 +51,7 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  width: 50%;
 
 
 
@@ -88,13 +94,11 @@
 
   font-family: Arial;
   font-size: 21px;
-  margin-top: 5%;
   padding: 1%;
-  width: 500px;
   background: white;
-  border: 1px solid;
+  border-bottom: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px #888888;
+
 
 
 
