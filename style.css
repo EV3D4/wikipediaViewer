@@ -105,9 +105,9 @@
   font-size: 21px;
   padding: 1%;
   color: black;
-  border-bottom: 1px solid;
   padding: 10px;
   width:90%;
+  height: 2.5em;
   margin: auto;
 
 }
@@ -141,6 +141,7 @@
 
 .borderframeX{
   border-style: solid;
+  border-width: 2px;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -153,6 +154,7 @@
   box-shadow: none;
   font-size: 20px;
   height: 30px;
+  margin-left: -10px;
 }
 
 
@@ -167,6 +169,7 @@
   font-weight: 200;
   text-align: center;
   font-size: 40px;
+  margin-top: 1em;
 }
 
 
