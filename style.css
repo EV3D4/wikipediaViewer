@@ -183,3 +183,17 @@ margin: auto;
 
 
 }
+.result-title {
+  font-size: 20px;
+}
+
+
+.result-list{
+  width: 93%;
+  margin: auto;
+  border-bottom: dashed;
+  border-width: 1px;
+  margin-top: 12px;
+
+}
+
