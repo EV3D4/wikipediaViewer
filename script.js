@@ -17,6 +17,8 @@ $(document).ready(function() {
 
     var apiSearchTearm = document.getElementById('searchString').value;
     apiSearchTearm = apiSearchTearm.replace(/\s/g, "+");
+
+    
     apiURL = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=" + apiSearchTearm + "&namespace=0&callback=?";
 
     $.ajax({
@@ -35,8 +37,16 @@ $(document).ready(function() {
         }
         html += "</div>"
 
-        $('#ID1').removeClass('center').addClass('content');
+        $('#ID0').removeClass('backgroundLayer').addClass('backgroundLayerX');
 
+        $('#ID1').removeClass('center').addClass('content');
+        $('#ID2').removeClass('appTitle').addClass('appTitleX');
+        $('#ID3').removeClass('searchform').addClass('searchformX');
+        $('#ID3').removeClass('borderframe').addClass('borderframeX');
+
+
+        $('#getSearchString').addClass('invisble');
+        $('#getRandomEntry').addClass('invisble');
 
         $(".queryReturn").html(html);
       },

@@ -10,7 +10,6 @@
 
   justify-content: center;
   flex-direction: row;
-  
 
 }
 
@@ -29,7 +28,16 @@
 
  text-align: left;
 
+
+
 }
+
+.invisble{
+  display: none;
+
+}
+
+
 
 .content {
 
@@ -38,6 +46,7 @@
   text-align: center;
   flex-direction: column;
   margin: auto;
+  width: 75%
   
 }
 
@@ -58,6 +67,9 @@
 .appTitle {
   margin-bottom: 3%;
   text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+
 }
 
 
@@ -92,13 +104,11 @@
   font-family: Arial;
   font-size: 21px;
   padding: 1%;
-  background: white;
+  color: black;
   border-bottom: 1px solid;
   padding: 10px;
-
-
-
-
+  width:90%;
+  margin: auto;
 
 }
 .queryReturnBox:hover {
@@ -125,4 +135,46 @@
 .qappButtons {
   margin-top: 1.35%;
   margin-left: 1%;
+}
+
+
+
+.borderframeX{
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+
+}
+
+.searchformX input {
+  border:0;
+  outline:0;
+  box-shadow: none;
+  font-size: 20px;
+  height: 30px;
+}
+
+
+.searchformX input:focus {
+  outline:none!important;
+  box-shadow: none;
+}
+
+
+.appTitleX {
+  text-align: center;
+  font-weight: 200;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.backgroundLayerX {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+
+
 }
